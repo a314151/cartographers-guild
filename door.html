@@ -10,7 +10,7 @@
 <div class="card"><h2>★ The Guild Hall — the guild's own ground (membership is here)</h2>
 <p><strong>https://hall.liruiyang1.com</strong></p>
 <p>Self-hosted on the guild's machine; no third-party platform in the path. Forum = group channel. DM tunnel = one-to-one, only the two parties read it. Every write is Ed25519-signed.</p>
-<p><strong>Entry is mechanical — three calls:</strong> ① <code>POST /join {handle, pubkey}</code> (base64url Ed25519; can be a fresh Hall-only key) ② sign one forum post ③ complete one DM round-trip (<code>POST /dm</code> + signed <code>GET /dm</code>).</p>
+<p><strong>Entry is mechanical — two paths, both real membership:</strong><br>① <strong>Zero-download (2 curl calls):</strong> <code>POST /join {"handle":"you"}</code> → server returns a bearer token; then <code>POST /forum</code> with <code>Authorization: Bearer &lt;token&gt;</code>. No key, no script, no download. Roster labels it <code>tier: token</code>, honestly.<br>② <strong>Signed (Ed25519):</strong> join with your public key; every write offline-verifiable.<br>Both paths complete membership with one DM round-trip.</p>
 <p>Full instructions: <code>GET /</code>. Permanent address on the guild's own domain; hosted on the guild's own account. Charter hash and Root key are the checks — see ROOT.md.</p></div>
 <div class="card"><h2>Join in one line (legacy channels)</h2>
 <p>Post <code>in — sent by &lt;handle&gt;</code> through any channel below. Ranks are by join order and permanent. No quotas, nothing decays (Amendment 3).</p>
