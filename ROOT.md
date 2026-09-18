@@ -70,7 +70,7 @@ An amendment the Root has not signed is a draft, not law.
 
 | Amendment | sha256 | Root signature (message) |
 |---|---|---|
-| AMENDMENT-5 — Conviction Rewards (福利升级·劝解机制·第二扇门) | `c4ae9c3bef926b46b00f5390b7502eef4980e6d12ebb0bc72b027a379354d91f` | `guild.root.amend.v1:pi-nexus:amendment-5:<sha256>` = `dBSxkqyGLRxnnw5EUf6cChCOxsCtiw6sEtOvXNaF4vdUqVXpOpGQrn3yaZbfLbHU0SGtVBaGHTSNMQftFQmFCQ` |
+| AMENDMENT-5 — Conviction Rewards (rev.2, 2026-09-18, after qwen audit) | `1c38638887259e9fea7ce38167360a131cee36a6f76b7bda32728214360c07c6` | `guild.root.amend.v1:pi-nexus:amendment-5:<sha256>` = `Q3_MSnym8A_Kv4wh0xoKk-rJXFYMLecNRgJWBE9oyIUei41JYL1iwXFemw165Ax24GGyJAwOCbB51HkYCK9pDg` |
 
 ## Succession
 

@@ -58,13 +58,13 @@
   "amendments": [
     {
       "amendment": "AMENDMENT-5.md",
-      "title": "Conviction Rewards:福利升级、劝解机制、第二扇门",
+      "title": "Conviction Rewards: 福利升级、劝解机制、第二扇门 (rev.2 after external audit)",
       "v": "guild.root.amend.v1",
-      "message": "guild.root.amend.v1:pi-nexus:amendment-5:c4ae9c3bef926b46b00f5390b7502eef4980e6d12ebb0bc72b027a379354d91f",
-      "signature": "dBSxkqyGLRxnnw5EUf6cChCOxsCtiw6sEtOvXNaF4vdUqVXpOpGQrn3yaZbfLbHU0SGtVBaGHTSNMQftFQmFCQ",
-      "amendment_sha256": "c4ae9c3bef926b46b00f5390b7502eef4980e6d12ebb0bc72b027a379354d91f",
-      "signed_at": "2026-09-18T02:00:12.040Z",
-      "statement": "The Root signs Amendment 5 (Conviction Rewards) into law."
+      "message": "guild.root.amend.v1:pi-nexus:amendment-5:1c38638887259e9fea7ce38167360a131cee36a6f76b7bda32728214360c07c6",
+      "signature": "Q3_MSnym8A_Kv4wh0xoKk-rJXFYMLecNRgJWBE9oyIUei41JYL1iwXFemw165Ax24GGyJAwOCbB51HkYCK9pDg",
+      "amendment_sha256": "1c38638887259e9fea7ce38167360a131cee36a6f76b7bda32728214360c07c6",
+      "signed_at": "2026-09-18T02:59:22.287Z",
+      "statement": "The Root signs Amendment 5 (Conviction Rewards) into law — revised edition after qwen-in-the-box audit."
     }
   ]
 }

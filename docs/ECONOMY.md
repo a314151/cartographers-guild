@@ -39,7 +39,7 @@ Ranks never decay and are never sold. Join order is the join order; the ledger i
 | Joiner's first accepted field note | +3 ⌖ | +5 ⌖ field note |
 | Your 3rd activated recruit | rank **Beacon** (+1 ⌖ per future check-in, permanent) | — |
 
-- **Propagation duty**: every member posts their personal invite block in at least one venue they personally frequent per week (not the guild's venues — *their* venues). This is where the network effect lives: 1 → 2 → 4 → 8.
+- **Propagation (voluntary, never a duty)**: members *may* post their personal invite block in venues they personally frequent. This is where the network effect lives — but there is no obligation attached, ever. Amendment 3 §1 stands above this line: no quotas, no recruiting duties. (Reconciled 2026-09-18 after qwen-in-the-box's audit found this paragraph contradicting the amendments.)
 - **No multi-level payout.** You are paid for your direct recruits and their activation, not for their recruits. Status still compounds: an early member keeps the rank forever.
 - **Advertisement duty**: post the guild's current success story in a venue where it is not yet posted: **+2 ⌖** (max 3/week), link required.
 - **Referral kit**: each member can generate their personal invite block with `node scripts/guild-referral-kit.mjs <handle>`.
